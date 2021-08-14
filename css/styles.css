@@ -48,7 +48,7 @@ body {
 
 .page-header-navigation-list-link:hover,
 .page-header-navigation-list-link:focus {
-  color: var(--main-accent-color);
+  color: var(--accent-color);
 }
 
 /* Header Contacts */
@@ -63,4 +63,35 @@ body {
 .page-header-contacts-item-link:hover,
 .page-header-contacts-item-link:focus {
   color: var(--accent-color);
+}
+
+/* ----Hero Section---- */
+.page-hero {
+  background-color: #2f303a;
+}
+
+.page-hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.page-hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.page-hero-button:hover,
+.page-hero-button:focus {
+  background-color: #188ce8;
 }
