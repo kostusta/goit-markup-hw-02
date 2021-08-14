@@ -3,6 +3,7 @@
   --main-text-color: #757575;
   --main-navigation-item-color: #212121;
   --accent-color: #2196f3;
+  --current-page-marker-color: #2196f3;
 }
 
 body {
@@ -66,6 +67,10 @@ body {
   color: var(--accent-color);
 }
 
+.page-marker {
+  color: var(--current-page-marker-color);
+}
+
 /* ----Hero Section---- */
 .page-hero {
   background-color: #2f303a;
@@ -75,7 +80,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -86,7 +90,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
 
   cursor: pointer;
@@ -122,7 +125,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--main-title-color);
@@ -133,7 +135,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--main-title-color);
