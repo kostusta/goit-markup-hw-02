@@ -19,8 +19,9 @@ body {
   text-decoration: none;
 }
 
-/* ----Header---- */
+/* -***-Index page-***- */
 
+/* ---Header--- */
 /* Logo */
 .page-header-logo,
 .page-footer-logo {
@@ -71,7 +72,7 @@ body {
   color: var(--current-page-marker-color);
 }
 
-/* ----Hero Section---- */
+/* ---Hero Section--- */
 .page-hero {
   background-color: #2f303a;
 }
@@ -87,6 +88,7 @@ body {
 }
 
 .page-hero-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -103,7 +105,7 @@ body {
   background-color: #188ce8;
 }
 
-/* ----Benefits Section---- */
+/* ---Benefits Section--- */
 .benefits-section-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -120,7 +122,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ----Our work Section---- */
+/* ---Our work Section--- */
 .our-work-sectoin-title {
   font-weight: 700;
   font-size: 36px;
@@ -130,7 +132,7 @@ body {
   color: var(--main-title-color);
 }
 
-/* ----Our team Section---- */
+/* ---Our team Section--- */
 .team-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -155,7 +157,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ----Footer---- */
+/* ---Footer--- */
 .page-footer {
   background-color: #2f303a;
 }
@@ -196,4 +198,44 @@ body {
 .page-footer-address-item-tel:hover,
 .page-footer-address-item-tel:active {
   color: var(--accent-color);
+}
+
+/* -***-Portfolio page-***- */
+
+/* ---Filters Section--- */
+.filters-section-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.active-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.filters-section-button:hover,
+.filters-section-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* ---Projects Section--- */
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-title-color);
+}
+
+.project-categor {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }

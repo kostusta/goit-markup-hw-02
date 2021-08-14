@@ -19,12 +19,12 @@
         <a class="page-header-logo link" href="./index.html" lang="en">Web<span>Studio</span></a>
         <ul class="page-header-navigation-list list">
           <li class="page-header-navigation-item">
-            <a class="page-header-navigation-item-link link page-marker" href="./index.html"
-              >Студия</a
-            >
+            <a class="page-header-navigation-item-link link" href="./index.html">Студия</a>
           </li>
           <li class="page-header-navigation-item">
-            <a class="page-header-navigation-item-link link" href="./portfolio.html">Портфолио</a>
+            <a class="page-header-navigation-item-link link page-marker" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li class="page-header-navigation-item">
             <a class="page-header-navigation-item-link link" href="">Контакты</a>
@@ -47,137 +47,146 @@
 
     <main>
       <!-- Our projects section -->
-      <section>
-        <h1>Портфолио</h1>
-        <ul>
-          <li>
-            <button type="button">Все</button>
+      <section class="filters-section">
+        <h1 class="filters-section-title">Портфолио</h1>
+        <ul class="filters-section-list list">
+          <li class="filters-section-item">
+            <button class="filters-section-button active-button" type="button">Все</button>
           </li>
-          <li>
-            <button type="button">Веб-сайты</button>
+          <li class="filters-section-item">
+            <button class="filters-section-button" type="button">Веб-сайты</button>
           </li>
-          <li>
-            <button type="button">Приложения</button>
+          <li class="filters-section-item">
+            <button class="filters-section-button" type="button">Приложения</button>
           </li>
-          <li>
-            <button type="button">Дизайн</button>
+          <li class="filters-section-item">
+            <button class="filters-section-button" type="button">Дизайн</button>
           </li>
-          <li>
-            <button type="button">Маркетинг</button>
+          <li class="filters-section-item">
+            <button class="filters-section-button" type="button">Маркетинг</button>
           </li>
         </ul>
       </section>
 
-      <section>
-        <ul>
-          <li>
-            <a href="">
+      <section class="projects">
+        <ul class="project-list list">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-1.jpg"
                 alt="Ноутбук"
                 width="370"
                 height="295"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Технокряк</h2>
             </a>
+            <p class="project-category">Веб-сайт</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-2.jpg"
                 alt="Спортсмены играют в баскетбол"
                 width="370"
                 height="295"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             </a>
+            <p class="project-category">Дизайн</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-3.jpg"
                 alt="Логотип ресторана в виде рыбы"
                 width="370"
                 height="295"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="project-title">Ресторан <span lang="en">Seafood</span></h2>
             </a>
+            <p class="project-category">Приложение</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-4.jpg"
                 alt="Беспроводные аушники"
                 width="370"
                 height="295"
               />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проект <span lang="en">Prime</span></h2>
             </a>
+            <p class="project-category">Маркетинг</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-5.jpg"
                 alt="Две коробки"
                 width="370"
                 height="295"
               />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="project-title">Проект <span lang="en">Boxes</span></h2>
             </a>
+            <p class="project-category">Приложение</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-6.jpg"
                 lang="en"
                 alt="iMac"
                 width="370"
                 height="295"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project-title" lang="en">Inspiration has no Borders</h2>
             </a>
+            <p class="project-category">Веб-сайт</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-7.jpg"
                 alt="Разворот журнала"
                 width="370"
                 height="295"
               />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="project-title">Издание <span lang="en">Limited Edition</span></h2>
             </a>
+            <p class="project-category">Дизайн</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-8.jpg"
                 alt="Этикетка"
                 width="370"
                 height="295"
               />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проект <span lang="en">LAB</span></h2>
             </a>
+            <p class="project-category">Маркетинг</p>
           </li>
-          <li>
-            <a href="">
+          <li class="project-item">
+            <a class="project-link link" href="">
               <img
+                class="project-preview"
                 src="./images/portfolio/portfolio-pic-9.jpg"
                 alt="Процесс набора текста на клавиатуре ноутбука"
                 width="370"
                 height="295"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="project-title" lang="en">Growing Business</h2>
             </a>
+            <p class="project-category">Приложение</p>
           </li>
         </ul>
       </section>
