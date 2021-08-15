@@ -196,7 +196,7 @@ body {
 }
 
 .page-footer-address-item-tel:hover,
-.page-footer-address-item-tel:active {
+.page-footer-address-item-tel:focus {
   color: var(--accent-color);
 }
 
